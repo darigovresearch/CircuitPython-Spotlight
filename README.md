@@ -7,7 +7,7 @@ Very often when filming you need an extra spotlight to adjust lighting or when c
 ## Available boards
 Below is a list of boards which spotlights have been made for
 - [ ] Circuit Playground Bluefruit
-- [ ] Circuit Playground Express
+- [x] Circuit Playground Express
 - [ ] MagTag
 - [ ] Matrix Portal
 
