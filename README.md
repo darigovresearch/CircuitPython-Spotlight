@@ -19,7 +19,7 @@ Watch our video on how to contribute to open source for a complete overview -> [
 ## License
 Unless otherwise specified, everything in this repository is covered by the following licence:
 
-TODO
+The license for this project is yet to be decided on, join the discussion [in this GitHub issue](https://github.com/darigovresearch/CircuitPython-Spotlight/issues/5).
 
 ----
 
