@@ -10,11 +10,9 @@ Welcome to CircuitPython Spotlight's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   introduction
+   bbc_micro_bit
+   circuit_playground_bluefruit
+   circuit_playground_express
+   magtag
+   matrix_portal
