@@ -4,6 +4,9 @@ Repository containing example code for making spotlights with on various Circuit
 ## Introduction
 Very often when filming you need an extra spotlight to adjust lighting or when camping you need a flashlight, torch or headlight. CircuitPython spotlight are various scripts made for specific CircuitPython boards to learn how each board works and can be used to teach new users to Python, CircuitPython, electronics and some core programming concepts as well.
 
+## Documentation
+Documentation site is available [here](https://darigovresearch.github.io/CircuitPython-Spotlight/)
+
 ## Available boards
 Below is a list of boards which spotlights have been made for
 - [x] Circuit Playground Bluefruit
