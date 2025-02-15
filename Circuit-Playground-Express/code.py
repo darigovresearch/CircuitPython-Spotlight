@@ -16,24 +16,40 @@ def update_brightness():
 
     state = global_state + 1
 
-    if state > 7:
+    if state > 15:
         state = 0
 
     if state == 0:
         colours = (0, 0, 0) # LEDs off
     elif state == 1:
-        colours = (85*3, 0, 0) # LEDs red
+        colours = (1, 0, 0) # LEDs red low
     elif state == 2:
-        colours = (85, 85, 85) # LEDs white low
+        colours = (127, 0, 0) # LEDs red medium
     elif state == 3:
-        colours = (85*2, 85*2, 85*2) # LEDs white medium
+        colours = (85*3, 0, 0) # LEDs red max
     elif state == 4:
-        colours = (85*3, 85*3, 85*3) # LEDs white max
+        colours = (1, 1, 1) # LEDs white low
     elif state == 5:
-        colours = (0, 0, 85*3) # LEDs blue max
+        colours = (127, 127, 127) # LEDs white medium
     elif state == 6:
-        colours = (0, 85*3, 0) # LEDs green max
+        colours = (85*3, 85*3, 85*3) # LEDs white max
     elif state == 7:
+        colours = (0, 0, 1) # LEDs blue low
+    elif state == 8:
+        colours = (0, 0, 127) # LEDs blue medium
+    elif state == 9:
+        colours = (0, 0, 85*3) # LEDs blue max
+    elif state == 10:
+        colours = (0, 1, 0) # LEDs green low
+    elif state == 11:
+        colours = (0, 127, 0) # LEDs green medium
+    elif state == 12:
+        colours = (0, 85*3, 0) # LEDs green max
+    elif state == 13:
+        colours = (1, 1, 0) # LEDs yellow low
+    elif state == 14:
+        colours = (127, 127, 0) # LEDs yellow medium
+    elif state == 15:
         colours = (85*3, 85*3, 0) # LEDs yellow max
 
     return colours, state
